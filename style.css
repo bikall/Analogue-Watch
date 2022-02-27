@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding:0;
+}
+#container{
+  position: relative;
+  width: 85vw;
+  height: 50vh;
+  margin: auto;
+  background: url(cloock.png) no-repeat;
+  background-size: 100%;
+}
+#hour{
+  position: absolute;
+  background-color: black;
+  width:2%;
+  height: 27%;
+  border-radius: 100%;
+  left:48.8%;
+  top:21.5%;
+  transform-origin: bottom;
+  
+}
+#minutes{
+  position: absolute;
+  background-color: black;
+  width:2%;
+  height: 33%;
+  border-radius: 40%;
+  left:48.7%;
+  top:15.5%;
+  transform-origin: bottom;
+}
+#seconds{
+position: absolute;
+background-color: black;
+width:1%;
+height: 35%;
+border-radius: 100%;
+left:49.4%;
+top:14%;
+transform-origin: bottom;
+}
